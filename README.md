@@ -1,9 +1,10 @@
-# dex
+# dexis
 Explaining Data
 
 
 To install:	```pip install dexis```
 
+[pypi page](https://pypi.org/project/dexis/)
 
 # What for?
 
