@@ -1,0 +1,62 @@
+@startmindmap
+
+'https://plantuml.com/mindmap-diagram
+
+'caption Vocabulary
+title Operations we want to enable
+
+'skinparam monochrome true
+'skinparam white transparent
+
+<style>
+mindmapDiagram {
+  node {
+    BackgroundColor #eeeeff
+    LineColor #111111
+  }
+  boxless {
+    FontColor black
+  }
+  arrow {
+    LineStyle 0
+    LineThickness 2
+    LineColor #222222
+}
+}
+</style>
+
+
+* For What?
+** Identify
+*** Annotate
+****[#cccccc]  i.e. (reference, content) pair
+*** Index (i.e. cached annotations)
+****[#cccccc]  i.e. cached annotations (reference->uri_to_content map)
+****[#cccccc]  e.g. file system
+****[#cccccc]  e.g. DB indices to optimize specific queries
+** Search
+*** Value rule based
+****[#cccccc]  e.g. machine_id == 123 & rpm > 100
+*** Natural language
+****[#cccccc]  e.g. search engine
+*** Similarity
+****[#cccccc]  e.g. find items similar to this one
+*** Structural
+****[#cccccc]  Subsumes the above cases
+** Combine
+*** Join/Link
+**** Normalize field names
+**** Fuzzy match field names
+**** Optimal (many-to-many) matching
+** Analyze
+*** View
+**** Relations
+**** Groups
+**** Trends
+**** Outliers
+*** Estimate
+**** Missing values (if needed for model)
+**** Existing values (i.e. normality model, leading to outlier model)
+**** Predict (estimating values missing because in the future)
+
+@endmindmap
