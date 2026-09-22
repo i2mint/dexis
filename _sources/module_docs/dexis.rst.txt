@@ -1,4 +1,0 @@
-dexis
-=====
-.. automodule:: dexis
-   :members:

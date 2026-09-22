@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-09-22T14:36:27Z",
+  "package": {
+    "name": "dexis",
+    "version": "0.0.6",
+    "display_name": "dexis",
+    "source": "pyproject.toml"
+  },
+  "git": {
+    "available": true,
+    "commit": "af1bafd33d9d89604692ebcb7c7d8e70c8d14f38",
+    "short_commit": "af1bafd",
+    "branch": "master",
+    "tags": [],
+    "dirty": false,
+    "remote_url": "https://github.com/i2mint/dexis",
+    "commit_url": "https://github.com/i2mint/dexis/commit/af1bafd33d9d89604692ebcb7c7d8e70c8d14f38",
+    "error": null
+  },
+  "ci": {
+    "provider": "github",
+    "repository": "i2mint/dexis",
+    "sha": "af1bafd33d9d89604692ebcb7c7d8e70c8d14f38",
+    "sha_in_history": true,
+    "ref": "refs/heads/master",
+    "ref_name": "master",
+    "run_id": "35741292036",
+    "run_url": "https://github.com/i2mint/dexis/actions/runs/35741292036",
+    "server_url": "https://github.com"
+  },
+  "tools": {
+    "epythet": "0.2.12",
+    "sphinx": "9.1.0",
+    "docutils": "0.22.4",
+    "python": "3.12.14"
+  },
+  "config": {
+    "theme": "auto",
+    "html_theme": "sphinxawesome_theme",
+    "accent": "#006c3a",
+    "mode": "auto",
+    "api_generator": "autosummary",
+    "ignore": [
+      "tests/",
+      "scrap/",
+      "examples/"
+    ],
+    "agent_outputs": true,
+    "aggregates": [
+      "md"
+    ],
+    "ai_artifacts": true,
+    "provenance": true,
+    "docs_dir": "docsrc"
+  },
+  "site": {
+    "modules_documented": 1,
+    "objects_documented": 0
+  },
+  "pypi": {
+    "checked": true,
+    "latest": "0.0.7",
+    "relation": "behind",
+    "error": null
+  },
+  "reproduce": "git clone https://github.com/i2mint/dexis && cd dexis\ngit checkout af1bafd33d9d89604692ebcb7c7d8e70c8d14f38\npip install \"epythet==0.2.12\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
+  "warnings": [],
+  "alignment": {
+    "aligned": false,
+    "notes": [
+      "The documented version (0.0.6) is behind the latest release on PyPI (0.0.7): `pip install dexis` gives newer code than these docs describe."
+    ]
+  }
+}

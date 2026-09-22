@@ -1,0 +1,12 @@
+# dexis
+
+> Data Lexis
+
+
+## Pages in this subsection
+
+- [dexis](dexis.html.md): A language to describe data, its interpretations and its transformations.
+
+## Optional
+
+- [Top-level llms.txt](../llms.txt): Complete documentation index.
