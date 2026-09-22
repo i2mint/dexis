@@ -20,7 +20,7 @@ from epythet.config_parser import parse_config
 from pathlib import Path
 
 project, copyright, author, release, display_name = parse_config(
-    Path(__file__).absolute().parent.parent / "setup.cfg"
+    Path(__file__).absolute().parent.parent / "pyproject.toml"
 )
 
 # -- General configuration ---------------------------------------------------
@@ -53,6 +53,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "alabaster"
+html_show_copyright = bool(copyright)
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
